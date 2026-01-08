@@ -25,6 +25,12 @@ test_LLM_VLM
 
     # # transformers 와 peft 버전 불일치
     pip install --upgrade transformers peft accelerate
+    
+    # # 상용 LLM api 이용, 학습 데이터 만들기 
+    pip install google-generativeai
+
+    # # RAG 활용
+    pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
 
 
 ## 2. Setting up the Environment for Ubuntu 24.04.2 LTS 2080ti(Driver Version: 550.120 CUDA Version: 12.4 )
