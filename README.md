@@ -31,7 +31,7 @@ test_LLM_VLM
 
     # # RAG 활용
     pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
-
+    pip install pypdf
 
 ## 2. Setting up the Environment for Ubuntu 24.04.2 LTS 2080ti(Driver Version: 550.120 CUDA Version: 12.4 )
     conda create -n test_vLLM python=3.10
@@ -49,3 +49,7 @@ test_LLM_VLM
 
     # # transformers 와 peft 버전 불일치
     pip install -U transformers peft accelerate bitsandbytes
+
+    # # RAG 활용
+    pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
+    pip install pypdf
