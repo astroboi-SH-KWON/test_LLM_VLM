@@ -57,3 +57,9 @@ test_LLM_VLM
     # # RAG 활용
     pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
     pip install pypdf
+    
+    # # 999_few-shot_prompting
+    # # 1. ollama 설치
+    curl -fsSL https://ollama.com/install.sh | sh
+    # # 2. Task에 맞는 모델 다운로드 e.g code 관련 CodeLlama, DeepSeek-Coder, 사내 메일 요약 Llama-3
+    ollama pull llama3
