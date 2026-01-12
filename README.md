@@ -27,7 +27,8 @@ test_LLM_VLM
     pip install --upgrade transformers peft accelerate
     
     # # 상용 LLM api 이용, 학습 데이터 만들기 
-    pip install google-generativeai
+    ~~pip install google-generativeai~~  # # Deprecated
+    pip install google-genai
 
     # # RAG 활용
     pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
@@ -49,6 +50,9 @@ test_LLM_VLM
 
     # # transformers 와 peft 버전 불일치
     pip install -U transformers peft accelerate bitsandbytes
+
+    # # 상용 LLM api 이용, 학습 데이터 만들기 
+    pip install google-genai
 
     # # RAG 활용
     pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
