@@ -61,5 +61,7 @@ test_LLM_VLM
     # # 999_few-shot_prompting
     # # 1. ollama 설치
     curl -fsSL https://ollama.com/install.sh | sh
-    # # 2. Task에 맞는 모델 다운로드 e.g code 관련 CodeLlama, DeepSeek-Coder, 사내 메일 요약 Llama-3
+    # # 2. Task에 맞는 모델 다운로드 e.g code 관련 CodeLlama, DeepSeek-Coder, 사내 메일 요약 Llama-3, 데이터 분석 Mistral
     ollama pull llama3
+    ollama pull codellama
+    ollama pull mistral
