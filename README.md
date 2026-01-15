@@ -34,6 +34,10 @@ test_LLM_VLM
     pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
     pip install pypdf
 
+    # # for 010_langchain_df_agent.ipynb
+    pip install langchain-experimental pandas tabulate
+    pip install seaborn statsmodels
+
 ## 2. Setting up the Environment for Ubuntu 24.04.2 LTS 2080ti(Driver Version: 550.120 CUDA Version: 12.4 )
     conda create -n test_vLLM python=3.10
     conda activate test_vLLM
@@ -57,6 +61,13 @@ test_LLM_VLM
     # # RAG 활용
     pip install langchain langchain-community langchain-huggingface chromadb sentence-transformers
     pip install pypdf
+
+    # # for 010_langchain_df_agent.ipynb
+    pip install langchain-experimental pandas tabulate
+    pip install seaborn statsmodels
+
+    # # 
+    pip install streamlit pandas langchain-ollama langchain-experimental tabulate
 
 ## 3. cmd for ollama
     # # 1. ollama 설치
