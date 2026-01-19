@@ -14,7 +14,7 @@ llama3:latest                 ------------    4.7 GB    2 days ago
 """
 
 MODEL_ID = "gemma3:12b"
-
+embedding_model = "bge-m3"
 
 if MODEL_ID == "gemma3:12b":
     CUSTOM_PREFIX = """
